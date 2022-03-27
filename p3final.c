@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 
 int input_number()
@@ -22,7 +21,7 @@ int is_composite(int n,int composite)
   }
   return composite;
 }
-void output(int n, int a)
+void output(int n, int composite)
 {
   if(a>2)
   {
@@ -37,9 +36,11 @@ void output(int n, int a)
 int main()
 {
   int p,q,r;
-  p=input_number();
-  q=is_composite(p,q);
-  output(p,q);
+  n=input_number();
+  composite=is_composite(n);
+  output(n,composite);
   return 0;
 
 }
+
+
